@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css?family=Sulphur+Point&display=swap');
+
+$padding-size: 20px;
+$padding-size-small: 10px;
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Sulphur Point', sans-serif;
+}
+
+.header-box {
+    background: linear-gradient(to bottom, #4868B1, #6744B1);
+    padding: $padding-size;
+}
+
+.title-box {
+    color: white;
+    padding: $padding-size;
+
+    h1 {
+        margin: 0;
+    }
+}
+
+.select-box {
+    .select-label-box {
+        padding: 0 $padding-size;
+
+        .select-label {
+            font-size: 1.4em;
+            color: white;
+        }
+    }
+
+    .select-input-box {
+        padding: $padding-size-small;
+
+        .select {
+            -webkit-appearance: none;
+            appearance: none;
+            outline: none;
+            width: 100%;
+            border-radius: 4px;
+            padding: $padding-size-small;
+
+            option {
+                padding: $padding-size-small;
+                &hover {
+                    color: #6744B1;
+                }
+            }
+        }
+    }
+}

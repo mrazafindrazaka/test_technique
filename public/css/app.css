@@ -1,0 +1,56 @@
+@import url(https://fonts.googleapis.com/css?family=Sulphur+Point&display=swap);html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Sulphur Point", sans-serif;
+}
+
+.header-box {
+  background: -webkit-gradient(linear, left top, left bottom, from(#4868B1), to(#6744B1));
+  background: linear-gradient(to bottom, #4868B1, #6744B1);
+  padding: 20px;
+}
+
+.title-box {
+  color: white;
+  padding: 20px;
+}
+
+.title-box h1 {
+  margin: 0;
+}
+
+.select-box .select-label-box {
+  padding: 0 20px;
+}
+
+.select-box .select-label-box .select-label {
+  font-size: 1.4em;
+  color: white;
+}
+
+.select-box .select-input-box {
+  padding: 10px;
+}
+
+.select-box .select-input-box .select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+       appearance: none;
+  outline: none;
+  width: 100%;
+  border-radius: 4px;
+  padding: 10px;
+}
+
+.select-box .select-input-box .select option {
+  padding: 10px;
+}
+
+.select-box .select-input-box .select optionhover {
+  color: #6744B1;
+}
+
